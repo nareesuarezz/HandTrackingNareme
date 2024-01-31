@@ -7,3 +7,5 @@ I also added a Change Color button, which as it says, it changes de figure color
 5 different colors (blue, yellow, green, orange and red) also changed the colors of the buttons to make it more original**
 
 Below, I let you a screenshot of how the project looks like:
+![Use Case Diagram](![imagen](https://github.com/nareesuarezz/HandTrackingNareme/assets/131177598/001a9afe-c74b-4b77-b73b-a7a8891d1b07)
+)
