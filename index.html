@@ -16,12 +16,12 @@
   <script src="menu.js"></script>
   <script src="pressable.js"></script>
   <script src="event-manager.js"></script>
-  <script src="hand-interaction.js"></script>
-  <script src="teleport-controls.js"></script>
+  <script src="geometry-color.js"></script>
+
 </head>
 
 <body>
-  <a-scene environment info-message="htmlSrc: #messageText" teleport-controls >
+  <a-scene environment info-message="htmlSrc: #messageText" teleport-controls>
     <a-assets>
       <a-asset-item id="messageText" src="message.html"></a-asset-item>
     </a-assets>
@@ -35,13 +35,16 @@
 
     <a-entity id="sphereGeometry" position="0 2.0 -1" rotation="45 45 0" geometry="primitive: sphere; radius: 0.6;"
       material="color: #fcdab7" size-change visible="false" scale="0.5 0.5 0.5" grabbable></a-entity>
+
     <a-entity id="menu" menu position="0 1.5 -0.5" rotation="-45 0 0" event-manager>
       <a-entity slider position="0 0.10 0"></a-entity>
       <a-entity id="sphereButton" button="label: sphere" position="-0.15 0 0"></a-entity>
       <a-entity id="boxButton" button="label: box" position="0 0 0"></a-entity>
       <a-entity id="torusButton" button="label: torus" position="0.15 0 0"></a-entity>
       <a-entity id="darkModeButton" button="label: Dark Mode; width: 0.20; toggable: true"
-        position="0 -0.10 0"></a-entity>
+        position="0 -0.08 0"></a-entity>
+      <a-entity id="colorChangeButton" button="label: Change Geometry Color;  width: 0.40" position="0 -0.16 0" geometry-color></a-entity>
+
     </a-entity>
     <a-entity hand-tracking-controls="hand: left"></a-entity>
     <a-entity hand-tracking-controls="hand: right"></a-entity>

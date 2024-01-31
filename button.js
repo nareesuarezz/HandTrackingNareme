@@ -9,7 +9,7 @@ AFRAME.registerComponent('button', {
     var el = this.el;
     var labelEl = this.labelEl = document.createElement('a-entity');
 
-    this.color = '#3a50c5';
+    this.color = '#c5c03a';
     el.setAttribute('geometry', {
       primitive: 'box',
       width: this.data.width,
@@ -23,7 +23,7 @@ AFRAME.registerComponent('button', {
     labelEl.setAttribute('position', '0 0 0.02');
     labelEl.setAttribute('text', {
       value: this.data.label,
-      color: 'white',
+      color: 'black`',
       align: 'center'
     });
 
@@ -50,13 +50,13 @@ AFRAME.registerComponent('button', {
   },
 
   stateChanged: function () {
-    var color = this.el.is('pressed') ? 'green' : this.color;
+    var color = this.el.is('pressed') ? 'orange' : this.color;
     this.el.setAttribute('material', {color: color});
   },
 
   onPressedStarted: function () {
     var el = this.el;
-    el.setAttribute('material', {color: 'green'});
+    el.setAttribute('material', {color: 'orange'});
     el.emit('click');
     if (this.data.togabble) {
       if (el.is('pressed')) {
