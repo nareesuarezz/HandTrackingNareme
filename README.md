@@ -1,4 +1,4 @@
-![imagen](https://github.com/nareesuarezz/HandTrackingNareme/assets/131177598/ac2a0a4a-f1d5-4d91-bf25-ecc8d1d5b36c)# Hand Tracking Nareme
+# Hand Tracking Nareme
 
 I made a Hand Tracking project with A-Frame using as a base the example handtracking project from A-Frame
 
