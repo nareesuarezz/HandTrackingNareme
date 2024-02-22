@@ -67,26 +67,46 @@ AFRAME.registerComponent('geometry-color', {
 ```
 
 Below, I let you a screenshot of how the project looks like:
+
 ![imagen](https://github.com/nareesuarezz/HandTrackingNareme/assets/131177598/805e986c-1e6f-47a8-8951-7fbc9def0d70)
 
 Here, how it looks if you press the CUBE button:
+
 ![imagen](https://github.com/nareesuarezz/HandTrackingNareme/assets/131177598/46429ccf-491f-43a6-b4ea-176feb2dee9d)
 
 Here, how it looks if you press the BALL button:
+
 ![imagen](https://github.com/nareesuarezz/HandTrackingNareme/assets/131177598/c9eb449b-db94-42ae-be23-3ec37bc5c2e5)
 
 Here, how it looks if you press the TORU button:
+
 ![imagen](https://github.com/nareesuarezz/HandTrackingNareme/assets/131177598/0ac379fe-99a6-47ea-bc72-64c101f7b676)
 
 Here, how it looks if you press the DARK MODE button:
+
 ![imagen](https://github.com/nareesuarezz/HandTrackingNareme/assets/131177598/011cf597-3fbc-4434-b8a6-1e4de56776f6)
 
 And finally, here you have all the examples of different colours what a geometry can have (the colours change randomly):
-ORANGE: ![imagen](https://github.com/nareesuarezz/HandTrackingNareme/assets/131177598/32124418-71c7-4d26-aa26-c404935364c8)
-RED: ![imagen](https://github.com/nareesuarezz/HandTrackingNareme/assets/131177598/913b60d8-0dc3-4348-a0ec-47ac4f1d9041)
-YELLOW: ![imagen](https://github.com/nareesuarezz/HandTrackingNareme/assets/131177598/5dc61c0b-6775-4d77-bab1-0b86299b8649)
-BLUE: ![imagen](https://github.com/nareesuarezz/HandTrackingNareme/assets/131177598/8f924cb1-3d73-4762-8383-8196b0f3f066)
-GREEN: ![imagen](https://github.com/nareesuarezz/HandTrackingNareme/assets/131177598/2b60120c-b31c-4809-ac02-c03266704c26)
+
+### ORANGE: 
+
+![imagen](https://github.com/nareesuarezz/HandTrackingNareme/assets/131177598/32124418-71c7-4d26-aa26-c404935364c8)
+
+### RED: 
+
+![imagen](https://github.com/nareesuarezz/HandTrackingNareme/assets/131177598/913b60d8-0dc3-4348-a0ec-47ac4f1d9041)
+
+### YELLOW: 
+
+![imagen](https://github.com/nareesuarezz/HandTrackingNareme/assets/131177598/5dc61c0b-6775-4d77-bab1-0b86299b8649)
+
+### BLUE: 
+
+![imagen](https://github.com/nareesuarezz/HandTrackingNareme/assets/131177598/8f924cb1-3d73-4762-8383-8196b0f3f066)
+
+### GREEN: 
+
+![imagen](https://github.com/nareesuarezz/HandTrackingNareme/assets/131177598/2b60120c-b31c-4809-ac02-c03266704c26)
 
 
 
